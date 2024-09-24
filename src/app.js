@@ -52,7 +52,7 @@ window.onload = function() {
       clearTimeout(jugaDeNuevo);
     }
     jugaDeNuevo = setTimeout(function() {
-      alert("¿El juego puede ser adictivo, cuidado?");
+      alert("!Cuidado. El juego puede ser adictivo¡");
     }, 2000);
   }
 
