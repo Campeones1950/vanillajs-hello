@@ -1,1 +1,26 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.carta {
+  position: relative;
+  background-color: white;
+  width: 360px;
+  height: 550px;
+  border-radius: 5%;
+  margin: 45px;
+}
+
+.paloArriba {
+  font-size: 85px;
+}
+
+.valor {
+  font-size: 75px;
+}
+
+.paloAbajo {
+  font-size: 85px;
+}
+
+.btn {
+  border-radius: 10%;
+  font-size: 40px;
+}
