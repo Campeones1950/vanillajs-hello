@@ -23,7 +23,7 @@ window.onload = function() {
     "10",
     "J",
     "Q",
-    "K",
+    "K"
   ];
   let cambiarCartabBtn = document.getElementById("cambiarCarta");
   let paloArriba = document.getElementById("paloArriba");
