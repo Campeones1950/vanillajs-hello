@@ -23,7 +23,7 @@ window.onload = function() {
     "10",
     "J",
     "Q",
-    "K",
+    "K"
   ];
   let cambiarCartabBtn = document.getElementById("cambiarCarta");
   let paloArriba = document.getElementById("paloArriba");
@@ -58,3 +58,29 @@ window.onload = function() {
 
   cambiarCartabBtn.addEventListener("click", cambiarCarta);
 };
+function generateExcuse() {
+  let who = ["The dog", "My grandma", "The mailman", "My bird"];
+  let action = ["ate", "peed", "crushed", "broke"];
+  let what = ["my homework", "my phone", "the car"];
+  let when = [
+    "before the class",
+    "when I was sleeping",
+    "while I was exercising",
+    "during my lunch",
+    "while I was praying"
+  ];
+  function randomElement(arreglo) {
+    let arregloIndex = Math.floor(Math.random() * arreglo.length);
+    return arreglo[arregloIndex];
+  }
+
+  return (
+    randomElement(who) +
+    " " +
+    randomElement(action) +
+    " " +
+    randomElement(what) +
+    " " +
+    randomElement(when)
+  );
+}
