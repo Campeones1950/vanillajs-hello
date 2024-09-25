@@ -23,7 +23,7 @@ window.onload = function() {
     "10",
     "J",
     "Q",
-    "K"
+    "K",
   ];
   let cambiarCartabBtn = document.getElementById("cambiarCarta");
   let paloArriba = document.getElementById("paloArriba");
@@ -52,7 +52,7 @@ window.onload = function() {
       clearTimeout(jugaDeNuevo);
     }
     jugaDeNuevo = setTimeout(function() {
-      alert("!Cuidado. El juego puede ser adictivo¡");
+      alert("!Cuidado, el juego puede ser adictivo¡");
     }, 2000);
   }
 
